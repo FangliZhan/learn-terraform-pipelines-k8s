@@ -1,8 +1,8 @@
 terraform {
   backend "remote" {
-    organization = "infrastructure-pipelines-workshop"
+    organization = "dcatcher-learning"
     workspaces {
-      name = "rose-z-k8s"
+      name = "learn-terraform-pipelines-k8s"
     }
   }
   required_providers {
